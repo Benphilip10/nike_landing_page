@@ -6,7 +6,7 @@ const Button = ({label, iconURL, backgroundColor, textColor, borderColor, fullWi
    
    ${
     backgroundColor ? `${textColor} ${backgroundColor} ${borderColor}`: 
-    "bg-coral-red text-white"} hover:drop-shadow-xl transition-all ease-in rounded-full
+    "bg-coral-red text-white"} lg:hover:drop-shadow-xl transition-all ease-in rounded-full
 
     ${fullWidth && `w-full`}
 
